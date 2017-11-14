@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="utf-8">
+	<title>KOLT - 1. běh</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="toosmall">
+	<h2>Snažíme se, ale nejde to!</h2>
+	<p>Váš displej či okno prohlížeče je příliš malé pro zobrazení této stránky. Zkuste zapnout zobrazení webu pro PC.</p>
+</div>
+<div id="obal">
+	<header>
+		<h1>KOLT 1. BĚH</h1>
+		<h3>Klub organizátorů letních táborů</h3>
+	</header>
+
+	<nav>
+			<ul>
+				<a href="index.html"><li>Úvod</li></a>
+				<a href="aktuality.html"><li>Aktuality</li></a>
+				<a href="o-vedoucich.html"><li>O vedoucích</li></a>
+				<a href="fotogalerie.html"><li>Fotogalerie</li></a>
+				<a href="program.html"><li>Program</li></a>
+				<a href="taboriste.html"><li>Tábořiště</li></a>
+				<a href="lesni-moudrost.html"><li>O Lesní moudrosti</li></a>
+				<a href="zimni-tabor.html"><li>Zimní tábor</li></a>
+				<a href="ke-stazeni.html"><li>Ke stažení</li></a>
+			</ul>
+		<div class="handle">
+			<p>MENU<span>&#9776;</span></p>
+		</div>
+	</nav>
+
+	<div id="stranka">
+	<section id="mainbar">
+		<section id="page-content">
+			<h2>Aktuality</h2>
+			<article>
+				<h3>LDT 1B 2015 A&B úspěšně zakončen!</h3>
+				<p>Tábor se myslíme velice podařil po všech stránkách. Počasí přálo, pěkně se hrálo, vše plynulo bez větších problémů. Těšíme se na další dobrodružství a tábor!</p>
+				<img src="image-pattern.jpg" />
+			</article>
+			<div class="article-wrap"></div>
+			<article>
+				<h3>LDT 1B 2015 A&B úspěšně zakončen!</h3>
+				<p>Tábor se myslíme velice podařil po všech stránkách. Počasí přálo, pěkně se hrálo, vše plynulo bez větších problémů. Těšíme se na další dobrodružství a tábor!</p>
+				<img src="image-pattern.jpg" />
+			</article>
+		</section>
+		<section id="sidebar">
+			<section id="kontakt">
+				<h4>Kontakty</h4>
+				<div class="part">
+					<h5>Organizátor</h5>
+					<p class="kontakt-line"><a href="#">lukmen@kolt.cz</a></p>
+					<p class="kontakt-line mezera">Tel: <a href="#">604 604 604</a></p>
+					<p class="kontakt-line">Lukáš Bezděk</p>
+					<p class="kontakt-line">Zelenečská 128/32</p>
+					<p class="kontakt-line">Praha 9 - Hloubětín</p>
+					<p class="kontakt-line mezera">194 00</p>
+				</div>
+
+				<div class="part">
+					<h5>Hlavní vedoucí</h5>
+					<p class="kontakt-line"><a href="">fedrunk-kouba@seznam.cz</a></p>
+					<p class="kontakt-line mezera">Tel: <a href="">732 907 079</a></p>
+				</div>
+
+				<div class="part">
+					<h5>Koordinátor stránek</h5>
+					<p class="kontakt-line mezera"><a href="">bozda@volny.cz</a></p>
+				</div>
+			</section>
+		</section>
+	</section>
+	</div>
+
+	<footer>
+		<p>© Anlex 2016 | KOLT</p>
+	</footer>
+	
+</div>
+<script>
+	$('.handle').on('click', function(){
+		$('nav ul').toggleClass('showing');
+		$('.handle').toggleClass('showing');
+	});
+</script>
+</body>
+</html>

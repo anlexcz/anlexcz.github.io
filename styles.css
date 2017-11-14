@@ -1,0 +1,343 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+
+/* OBALY WEBU */
+
+body {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: black;
+}
+div#obal {
+	width: 100%;
+	margin: 0px auto;
+}
+div.toosmall {
+	display: none;
+}
+
+/* HLAVIČKA */
+header {
+	width: 100%;
+	height: auto;
+	background-image: url('header-100.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+	text-align: center;
+	padding: 15px 0px;
+	margin: 0px;
+	color: white;
+	text-shadow: black 0px 0px 10px;
+}
+header h1 {
+	font-size: 350%;
+	font-weight: 700;
+	margin: 15px 0px 10px;
+}
+header h3 {
+	font-size: 130%;
+	font-weight: 500;
+	margin: 10px 0px 15px;
+}
+
+/* MENU */
+nav ul {
+	background-color: #1D5900;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	max-height: 0px;
+	overflow: hidden;
+	-webkit-transition: max-height 0.5s;
+	-ms-transition: max-height 0.5s;
+	-moz-transition: max-height 0.5s;
+	-o-transition: max-height 0.5s;
+	transition: max-height 0.5s;
+}
+.showing {
+	max-height: 25em;
+}
+.showing.handle {
+	background-color: white;
+	color: black;
+	border-bottom: solid 2px #1D5900;
+}
+nav ul a {
+	color: inherit;
+	text-decoration: none;
+}
+nav ul li {
+	display: block;
+	padding: 10px 0px;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+.handle {
+	display: block;
+	padding: 15px 15px;
+	height: auto;
+	width: auto;
+	background-color: #1D5900;
+	color: white;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+	font-size: 110%;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.handle p {
+	margin: 0px;
+	padding: 0px;
+}
+.handle p span {
+	text-align: right;
+	font-weight: 700;
+	float: right;
+}
+
+/* HLAVNÍ ČÁST */
+#stranka {
+	
+}
+section#mainbar {
+	width: 100%;
+}
+section#mainbar section#page-content {
+	padding: 10px 5% 20px;
+}
+section#mainbar section#page-content h2 {
+	font-size: 200%;
+	font-weight: 700;
+	text-align: center;
+}
+section#mainbar section#page-content blockquote {
+	text-align: justify;
+	margin: 10px 15px;
+	font-style: italic;
+}
+section#mainbar section#page-content h3 {
+	font-size: 125%;
+	font-weight: 600;
+	margin: 20px 0px 10px;
+}
+section#mainbar section#page-content ul {
+	list-style: square;
+    padding: 0px 0px 0px 20px;
+    text-align: justify;
+}
+section#mainbar article {
+	margin: 10px 0px 20px;
+	padding: 0px 5%;
+}
+section#mainbar article h3 {
+	font-size: 150%;
+	font-weight: 500;
+	margin: 10px 0px 5px;
+}
+section#mainbar article p {
+	font-size: 100%;
+	text-align: justify;
+	line-height: 1.2;
+	margin: 5px 0px 5px;
+}
+section#mainbar article img {
+	width: 100%;
+	margin: 5px 0px 5px;
+}
+section#mainbar div.article-wrap {
+	height: 1px;
+	width: 60%;
+	margin: 10px auto;
+	background-color: #000;
+	opacity: 0.25;
+}
+/* SIDEBAR */
+section#sidebar {
+	width: 90%;
+	overflow: hidden;
+	background-color: #b6d4a8;
+	color: black;
+	padding: 0px 5%;
+}
+section#sidebar a {
+	color: black;
+	font-weight: 600;
+	text-decoration: underline;
+	cursor: pointer;
+}
+section#sidebar section#kontakt {
+	margin: 10px 0px 20px;
+}
+section#sidebar section#kontakt h4 {
+	font-size: 150%;
+	font-weight: 500;
+	margin: 10px 0px 5px;
+}
+section#sidebar section#kontakt div.part {
+	width: 100%;
+}
+section#sidebar section#kontakt div.part h5 {
+	font-size: 115%;
+	font-weight: 500;
+	margin: 10px 0px 5px;
+}
+section#sidebar section#kontakt div.part p.kontakt-line {
+	line-height: 1.2;
+	font-size: 100%;
+}
+section#sidebar section#kontakt div.part p.mezera {
+	margin: 0px 0px 5px;
+}
+
+/* FOOTER */
+footer {
+	width: 100%;
+	background-color: #1D5900;
+	text-align: center;
+	color: white;
+	padding: 10px 0px;
+	overflow: hidden;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 300px) {
+	body {
+		background: #C20000;
+	}
+	div#obal {
+		display: none;
+	}
+	div.toosmall {
+		display: block;
+		text-align: center;
+		background-color: #C20000;
+		color: white;
+		padding: 20px 5px;
+	}
+	div.toosmall h2 {
+		font-size: 120%;
+		font-weight: 700;
+		margin: 10px 0px 15px;
+	}
+	div.toosmall p {
+		font-size: 90%;
+		font-style: italic;
+	}
+}
+@media screen and (min-width: 450px) {
+	section#sidebar section#kontakt div.part {
+		width: 50%;
+    	float: left;
+    	margin-bottom: 15px;
+	}
+}
+@media screen and (min-width: 650px) {
+	section#sidebar section#kontakt div.part {
+		width: 33%;
+    	float: left;
+    	margin-bottom: 10px;
+	}
+}
+@media screen and (min-width: 700px) {
+	div#obal {
+		width: 100%;
+	}
+	header {
+		background-image: url("header-tablet.jpg");
+	}
+
+		section#mainbar {
+		background-color: #b6d4a8;
+		float: right;
+		width: 100%;
+	}
+	section#page-content {
+		width: 68%;
+		background: white;
+		float: right;
+	}
+	nav {
+
+	}
+	section#sidebar {
+		font-size: 90%;
+		width: 22%;
+		float: left;
+		box-sizing: border-box;
+		padding: 0px 10px;
+	}
+	section#sidebar section#kontakt div.part {
+		width: 100%;
+    	float: none;
+    	margin-bottom: 15px;
+	}
+	nav ul a li {
+		width: 50%;
+		float: left;
+	}
+}
+@media screen and (min-width: 1000px) {
+	div#obal {
+		width: 1000px;
+	}
+	body {
+		background-color: #8b4012;
+		background-image: url("header-dektop.jpg");
+		background-position: center -20px;
+		background-repeat: repeat-x;
+	}
+	header {
+		background-image: none;
+		background-color: rgba(0,0,0,0.3);
+	}
+	.handle {
+		display: none;
+	}
+	nav ul {
+		max-height: 50em;
+		margin: 0px auto;
+	}
+	nav ul a {
+		width: auto;
+		float: left;
+		padding: 0px 15px;
+	}
+	nav ul a:hover {
+		background: rgba(255,255,255,0.2);
+	}
+	nav ul a li {
+		width: 100%;
+	}
+	section#mainbar {
+		background-color: #b6d4a8;
+		width: 100%;
+	}
+	section#page-content {
+		width: 68%;
+		background: white;
+	}
+	nav {
+
+	}
+	section#sidebar {
+		font-size: 100%;
+		width: 22%;
+		float: left;
+		box-sizing: border-box;
+		padding: 0px 10px;
+	}
+	section#sidebar section#kontakt div.part {
+		width: 100%;
+    	float: none;
+    	margin-bottom: 15px;
+	}
+}
