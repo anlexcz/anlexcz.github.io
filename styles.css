@@ -190,6 +190,56 @@ section#mainbar div.article-wrap {
 	background-color: #000;
 	opacity: 0.25;
 }
+/* VEDOUCÍ */
+p.nahoru {
+	text-align: center;
+	margin: -12px 0px 5px;
+}
+p.nahoru a {
+	padding: 5px 10px;
+	background-color: #1D5900;
+	margin: 2px 2px;
+	color: white;
+	text-decoration: none;
+	transition: all 0.1s ease-in-out;
+	display: inline-block;
+}
+p.nahoru a:hover {
+	background-color: #367139;
+	transition: all 0.1s ease-in-out;
+}
+div#namelist {
+	margin-top: 10px;
+}
+div#namelist a.osoba {
+	padding: 5px 10px;
+	background-color: #1D5900;
+	margin: 2px 2px;
+	color: white;
+	text-decoration: none;
+	transition: all 0.1s ease-in-out;
+	display: inline-block;
+}
+div#namelist a.osoba:hover {
+	background-color: #367139;
+	transition: all 0.1s ease-in-out;
+}
+section.osoba {
+	text-align: center;
+}
+section.osoba h3 {
+	text-align: left;
+}
+section.osoba p {
+	margin-top: 5px;
+	text-align: justify;
+	line-height: 1.3;
+}
+section.osoba img {
+	width: 100%;
+	max-width: 310px;
+	margin: 5px auto;
+}
 /* SIDEBAR */
 section#sidebar {
 	width: 90%;
@@ -320,6 +370,16 @@ footer {
 		width: 50%;
 		float: left;
 	}
+	section.osoba p {
+		margin-top: 5px;
+		text-align: justify;
+		line-height: 1.3;
+	}
+	section.osoba img {
+		width: 238px;
+		float: right;
+		margin-left: 20px;
+	}
 }
 @media screen and (min-width: 1000px) {
 	div#obal {
@@ -375,5 +435,15 @@ footer {
 		width: 100%;
     	float: none;
     	margin-bottom: 15px;
+	}
+	section.osoba p {
+		margin-top: 5px;
+		text-align: justify;
+		line-height: 1.3;
+	}
+	section.osoba img {
+		/*width: 35%;*/
+		float: right;
+		margin-left: 20px;
 	}
 }
