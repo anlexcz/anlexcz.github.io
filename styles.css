@@ -82,7 +82,7 @@ nav ul {
 	transition: max-height 0.5s;
 }
 .showing {
-	max-height: 25em;
+	max-height: 35em;
 }
 .showing.handle {
 	background-color: white;
@@ -154,6 +154,10 @@ section#mainbar section#page-content h3 {
 section#mainbar section#page-content ul {
 	list-style: square;
     padding: 0px 0px 0px 20px;
+    text-align: justify;
+}
+section#mainbar section#page-content p {
+	padding: 5px 0px;
     text-align: justify;
 }
 section#mainbar article {
