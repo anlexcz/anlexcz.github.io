@@ -194,6 +194,14 @@ section#mainbar div.article-wrap {
 	background-color: #000;
 	opacity: 0.25;
 }
+/* MISC */
+p.ceteh {
+	font-weight: 700;
+}
+p.cetehdescrtipton {
+	padding-top: 0px;
+}
+
 /* VEDOUCÍ */
 p.nahoru {
 	text-align: center;
