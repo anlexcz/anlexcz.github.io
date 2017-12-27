@@ -201,6 +201,30 @@ p.ceteh {
 p.cetehdescrtipton {
 	padding-top: 0px;
 }
+div.taboriste div.image {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+div.taboriste div.image img {
+	width: 100%;
+}
+div.taboriste div.image p {
+	text-align: center !important;
+	font-style: italic;
+}
+div.ubytovani div.image {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+div.ubytovani div.image img {
+	width: 100%;
+}
+div.ubytovani div.image p {
+	text-align: center !important;
+	font-style: italic;
+}
 
 /* VEDOUCÍ */
 p.nahoru {
@@ -363,6 +387,18 @@ footer {
     	float: left;
     	margin-bottom: 10px;
 	}
+	div.taboriste div.image {
+	width: 49%;
+	min-height: 342px;
+	margin: 0px 0.5% 10px 0.5%;
+	float: left;
+	}
+	div.ubytovani div.image {
+	width: 49%;
+	min-height: 342px;
+	margin: 0px 0.5% 10px 0.5%;
+	float: left;
+	}
 }
 @media screen and (min-width: 700px) {
 	div#obal {
@@ -413,6 +449,14 @@ footer {
 		width: 238px;
 		float: right;
 		margin-left: 20px;
+	}
+}
+@media screen and (min-width: 850px) {
+		div.taboriste div.image {
+	width: 32.3333333333%;
+	min-height: 342px;
+	margin: 0px 0.5% 10px 0.5%;
+	float: left;
 	}
 }
 @media screen and (min-width: 1000px) {

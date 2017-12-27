@@ -1,3 +1,6 @@
-RESTRUKTURALIZACE
-- Historii CETEHů přesunout pod LETNÍ TÁBOR
-- Denní Program také přesunout pod LETNÍ TÁBOR
+RESTRUKTURALIZACE, VYLEPŠENÍ, DOPLNÉNÍ A DALŠÍ POZNÁMKY by JT
+- Historii CETEHů přesunout pod LETNÍ TÁBOR (vytvořit podstranku [web/letni-tabor/ceteh.html])
+- Denní Program také přesunout pod LETNÍ TÁBOR (nevytvářet podstránku, doplnit do výčtu informací)
+- CETEHY udělat pomocí rozevíratelných "boxů". Potřeba sehnat kód.
+- Dohnat Cetehy po roce 2014
+- Sehnat zbytek Magazínu odhodlaných
