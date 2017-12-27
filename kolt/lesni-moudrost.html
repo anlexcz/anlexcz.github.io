@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="utf-8">
+	<title>KOLT - 1. běh</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="toosmall">
+	<h2>Snažíme se, ale nejde to!</h2>
+	<p>Váš displej či okno prohlížeče je příliš malé pro zobrazení této stránky. Zkuste zapnout zobrazení webu pro PC.</p>
+</div>
+<div id="obal">
+<anchor id="nahoru"></anchor>
+	<header>
+		<div id="odkazy">
+			<a href="http://www.kolt.cz/"><img src="web.png" /></a>
+			<a href="https://www.facebook.com/detskytabor/"><img src="facebook.png" /></a>
+		</div>
+		<h1>KOLT 1. BĚH</h1>
+		<h3>Klub organizátorů letních táborů</h3>
+	</header>
+
+	<nav>
+			<ul>
+				<a href="index.html"><li>Úvod</li></a>
+				<a href="aktuality.html"><li>Aktuality</li></a>
+				<a href="o-vedoucich.html"><li>O vedoucích</li></a>
+				<a href="fotogalerie.html"><li>Fotogalerie</li></a>
+				<a href="program.html"><li>Program</li></a>
+				<a href="taboriste.html"><li>Tábořiště</li></a>
+				<a href="lesni-moudrost.html"><li>O Lesní moudrosti</li></a>
+				<a href="letni-tabor.html"><li>Letní tábor</li></a>
+				<a href="zimni-tabor.html"><li>Zimní tábor</li></a>
+				<a href="ke-stazeni.html"><li>Ke stažení</li></a>
+			</ul>
+		<div class="handle">
+			<p>MENU<span>&#9776;</span></p>
+		</div>
+	</nav>
+
+	<div id="stranka">
+	<section id="mainbar">
+		<section id="page-content">
+			<h2>O Lesní moudrosti</h2>
+
+			<h3>Hnutí Lesní moudrosti</h3>
+			<p>Lesní moudrost vychází z knih a činnosti Ernesta Thompsona Setona (1860-1946), který byl zakladatelem hnutí Woodcraft a dlouholetým činovníkem amerického skautského hnutí. A co se pod lesní moudrostí skrývá? Je to znalost přírody (zvířat a jejich stop, rostlin, hvězd atd.), tábornické dovednosti (uzlování, morseovka, šifrování, práce se dřevem, zdravověda, práce s ohněm atd.), fyzická zdatnost, sebeovládání a chování v přírodě. Proto jako uznání těm, kteří tyto dovednosti ovládnou, udělujeme u posledního táborového ohně přiměřený stupeň Lesní moudrosti v podobě „placky“.</p>
+
+			<h3>Jak to chodí u nás?</h3>
+			<p>Každé dítě, které s námi jede poprvé, dostává automaticky u prvního táborového ohně tzv. 0. stupeň („kulatá placka“). Pro schopné táborníky máme na konci tábora 1. -6. stupeň („rohatá placka“ různě upravená přivěšenými šňůrkami). Vedoucí pak mají svou vlastní „rohatou placku“ s kuličkami.</p>
+
+			<h3>Foto placek</h3>
+			<img src="img/moudrosti.jpg" style="width:100%; max-width: 400px; margin: 0px auto;"/>
+			<p>1. řada: 0. stupeň, 1. stupeň, 2. stupěn;<br>2. řada: 3. stupeň, 4. stupeň;<br>3. řada: 5. stupeň, 6. stupeň</p>
+
+		</section>
+		<section id="sidebar">
+			<section id="kontakt">
+				<h4>Kontakty</h4>
+				<div class="part">
+					<h5>Organizátor</h5>
+					<p class="kontakt-line"><a href="#">lukmen@kolt.cz</a></p>
+					<p class="kontakt-line mezera">Tel: <a href="#">604 604 604</a></p>
+					<p class="kontakt-line">Lukáš Bezděk</p>
+					<p class="kontakt-line">Zelenečská 128/32</p>
+					<p class="kontakt-line">Praha 9 - Hloubětín</p>
+					<p class="kontakt-line mezera">194 00</p>
+				</div>
+
+				<div class="part">
+					<h5>Hlavní vedoucí</h5>
+					<p class="kontakt-line"><a href="">fedrunk-kouba@seznam.cz</a></p>
+					<p class="kontakt-line mezera">Tel: <a href="">732 907 079</a></p>
+				</div>
+
+				<div class="part">
+					<h5>Koordinátor stránek</h5>
+					<p class="kontakt-line mezera"><a href="">bozda@volny.cz</a></p>
+				</div>
+			</section>
+		</section>
+	</section>
+	</div>
+
+	<footer>
+		<p>© Anlex 2016 | KOLT</p>
+	</footer>
+	
+</div>
+<script>
+	$('.handle').on('click', function(){
+		$('nav ul').toggleClass('showing');
+		$('.handle').toggleClass('showing');
+	});
+</script>
+</body>
+</html>
