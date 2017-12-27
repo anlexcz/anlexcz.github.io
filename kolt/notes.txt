@@ -4,3 +4,5 @@ RESTRUKTURALIZACE, VYLEPŠENÍ, DOPLNÉNÍ A DALŠÍ POZNÁMKY by JT
 - CETEHY udělat pomocí rozevíratelných "boxů". Potřeba sehnat kód.
 - Dohnat Cetehy po roce 2014
 - Sehnat zbytek Magazínu odhodlaných
+- Medailonky
+- Stupně dětí????
