@@ -10,6 +10,8 @@ body {
 	color: black;
 	background-image: url(header-dektop.jpg);
 	background-position: center 0px;
+	background-repeat: no-repeat;
+	background-color: #8b4012;
 }
 div#obal {
 	width: 100%;
@@ -184,6 +186,10 @@ section#mainbar article p.meta {
 	color: #555555;
 }
 section#mainbar article img {
+	width: 100%;
+	margin: 5px 0px 5px;
+}
+section#mainbar article img.obrazek {
 	width: 100%;
 	margin: 5px 0px 5px;
 }
@@ -407,6 +413,10 @@ footer {
 	.dennirezim td:nth-child(2) {
 		width: 70%;
 	}
+	section#mainbar article img.obrazek {
+	width: 50%;
+	margin: 5px 25%;
+	}
 }
 @media screen and (min-width: 650px) {
 	section#sidebar section#kontakt div.part {
@@ -428,6 +438,39 @@ footer {
 	}
 }
 @media screen and (min-width: 700px) {
+	.handle {
+		display: none;
+	}
+	nav ul {
+		max-height: 50em;
+		margin: 0px auto;
+	}
+	nav ul a {
+		width: auto;
+		float: left;
+		padding: 0px 15px;
+	}
+	nav ul a:hover {
+		background: rgba(255,255,255,0.2);
+	}
+	nav ul a li {
+		width: 100%;
+	}
+	section#mainbar {
+		background-color: #b6d4a8;
+		width: 100%;
+	}
+	section#page-content {
+		width: 68%;
+		background: white;
+	}
+	nav {
+
+	}
+
+
+
+
 	div#obal {
 		width: 100%;
 		background-image: url(header-dektop.jpg);
@@ -463,10 +506,10 @@ footer {
     	float: none;
     	margin-bottom: 15px;
 	}
-	nav ul a li {
+	/*nav ul a li {
 		width: 50%;
 		float: left;
-	}
+	}*/
 	section.osoba p {
 		margin-top: 5px;
 		text-align: justify;
@@ -488,7 +531,7 @@ footer {
 }
 @media screen and (min-width: 1000px) {
 	div#obal {
-		width: 1000px;
+		width: 90%;
 	}
 	body {
 		background-color: #8b4012;
@@ -551,4 +594,16 @@ footer {
 		float: right;
 		margin-left: 20px;
 	}
+}
+@media screen and (min-width: 1320px) {
+	div#obal {
+		width: 1200px;
+	}
+}
+
+
+
+/* FLICKR GALERIE */
+div.ug-thumbs-grid-inner {
+	height: 100% !important;
 }
